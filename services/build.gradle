@@ -1,0 +1,8 @@
+jar {
+    archiveBaseName = 'services'
+    destinationDirectory.set(file("C:\\Users\\Jakab_Benko\\Desktop\\Postman_Tests"))
+}
+
+dependencies {
+    implementation project(':utils')
+}

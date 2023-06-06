@@ -1,0 +1,14 @@
+plugins {
+    id 'war'
+}
+
+dependencies {
+    implementation project(':services')
+    testImplementation  project(':utils')
+    providedCompile "javax.servlet:servlet-api:2.5"
+}
+
+war {
+    archiveBaseName = 'web'
+    destinationDirectory.set(file("C:\\Users\\Jakab_Benko\\Desktop\\Postman_Tests"))
+}

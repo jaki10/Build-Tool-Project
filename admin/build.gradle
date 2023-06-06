@@ -1,0 +1,17 @@
+plugins {
+    id 'application'
+}
+
+application {
+    mainClass = 'com.builders.admin.AdminEntryPoint'
+}
+
+jar {
+    archiveBaseName = 'admin'
+    destinationDirectory.set(file("C:\\Users\\Jakab_Benko\\Desktop\\Postman_Tests"))
+}
+
+dependencies {
+    implementation project(':services')
+    testImplementation  project(':utils')
+}

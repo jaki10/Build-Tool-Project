@@ -1,0 +1,4 @@
+jar {
+    archiveBaseName = 'utils'
+    destinationDirectory.set(file("C:\\Users\\Jakab_Benko\\Desktop\\Postman_Tests"))
+}
