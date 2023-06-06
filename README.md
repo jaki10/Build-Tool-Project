@@ -15,4 +15,3 @@
 3. For creating jar and war files outside the project, I specified the destinationDir parameter inside the jar and war tasks.
 4. For creating the asked artifacts, I navigated inside the admin submodule first, and typed command "gradle jar", for creating the war file, I navigated into the web submodule and typed command "gradle war".
 5. For executing the tests I ran the command "gradle test" from the root directory.
-6. The end of the task :)
